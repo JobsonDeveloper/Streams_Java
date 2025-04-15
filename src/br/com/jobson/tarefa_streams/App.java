@@ -45,7 +45,7 @@ public class App {
         return lista;
     }
 
-    private static void imprimeResultado(ArrayList<Pessoa> lista) {
+    public static void imprimeResultado(ArrayList<Pessoa> lista) {
         if (lista.size() > 0) {
             // ---- Imprime a lista completa
             System.out.println("-----------LISTA-------------");
