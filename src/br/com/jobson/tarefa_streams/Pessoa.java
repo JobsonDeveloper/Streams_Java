@@ -1,4 +1,4 @@
-package br.com.jobson;
+package br.com.jobson.tarefa_streams;
 
 import java.util.List;
 import java.util.Objects;
@@ -11,10 +11,6 @@ public class Pessoa {
         this.nome = nome;
         this.sexo = sexo;
     }
-//
-//    public Pessoa(Pessoa pessoa) {
-//        this();
-//    }
 
     public String getSexo() {
         return sexo;
@@ -51,13 +47,4 @@ public class Pessoa {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
-//    public void criaPessoa(String nome, String sexo) {
-//            this.nome = nome;
-//            this.sexo = sexo;
-//        Pessoa pessoa2 = new Pessoa("Vilma", "F");
-//        Pessoa pessoa3 = new Pessoa("Anderson", "M");
-//        Pessoa pessoa4 = new Pessoa("Maria", "F");
-//        return List.of(pessoa);
-//    }
 }
